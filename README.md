@@ -94,10 +94,22 @@ Bot checks flight prices via the API
 
 If price ```< $250``` → Sends a Telegram alert to that user.
 
+### 6.```requirements.txt```
 
+```
+python-telegram-bot==20.3
+apscheduler
+requests
+```
 
+What each library does:
+library - purpose
 
+```python-telegram-bot``` Interacts with Telegram API to receive/send messages
+```apscheduler``` Runs background jobs on intervals (like checking flight prices hourly)
+```requests``` Makes HTTP requests to the Kiwi.com API to fetch flight data
 
-
-
-
+You can install the dependencies by running:
+```
+pip install -r requirements.txt
+```
