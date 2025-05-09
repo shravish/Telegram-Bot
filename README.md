@@ -4,12 +4,12 @@
 This project consists of the following main components:
 
 ### File  - 	Purpose
-#### bot.py - Handles Telegram messages, commands, and alerts
-#### flight_tracker.py	-  Fetches flight price data from the Kiwi Tequila API
-#### db.py	-  Stores user tracking preferences in memory
-#### scheduler.py	- Periodically checks prices and triggers alerts
-#### config.py	-  Stores API keys and configuration values
-#### requirements.txt	- Required libraries for the bot to run
+#### 1.```bot.py``` - Handles Telegram messages, commands, and alerts
+#### 2.```flight_tracker.py```	-  Fetches flight price data from the Kiwi Tequila API
+#### 3.```db.py```	-  Stores user tracking preferences in memory
+#### 4.```scheduler.py```	- Periodically checks prices and triggers alerts
+#### 5.```config.py```	-  Stores API keys and configuration values
+#### 6.```requirements.txt```	- Required libraries for the bot to run
 
 ### Code Breakdown (Step-by-Step)
 
